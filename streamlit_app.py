@@ -9,7 +9,7 @@ st.title('st.cache')
 a0 = time()
 st.subheader('Using st.cache')
 
-@st.cache_data(suppress_st_warning=True)
+@st.cache_data
 def load_data_a():
   df = pd.DataFrame(
     np.random.rand(2000000, 5),
