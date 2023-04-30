@@ -1,1 +1,9 @@
+# Data Dependencies
+xgboost
+scikit-learn
+pandas
+matplotlib
+
+# Streamlit related
+streamlit
 streamlit_shap
